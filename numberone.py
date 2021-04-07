@@ -1,4 +1,4 @@
-#store matrix
+#import matrix lib
 import numpy.matlib 
 import numpy as np
 k = 17
