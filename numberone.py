@@ -1,6 +1,8 @@
 #import matrix lib
 import numpy.matlib 
 import numpy as np
+
+#k is my attendance number
 k = 17
 
 #Impedansi Jaringan
@@ -15,7 +17,7 @@ Z[2][5] = 9.3633+27.4022j
 Z[3][4] = 3.4914+18.6208j
 Z[5][6] = 6.35329+25.0217j
 
-# Y'
+# Line Charging / Y'
 Lc = np.zeros((7,7), dtype=complex)
 Lc[0][1] = 0.00014j
 Lc[0][5] = 0.00014j
