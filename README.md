@@ -2,7 +2,7 @@
 
 ***Electric Power System Stability Operation***
 
-The project given by my lecture, I have done calculate using **Matlab** before. I want to try **Python** to calculate this. Electrical Network Data given below.
+In the project given by my lecture, I have done calculate using **Matlab** before. I want to try **Python** to perform the calculation. Electrical Network Data are given below.
 
 >![problem](./img/problem.jpg)
 
