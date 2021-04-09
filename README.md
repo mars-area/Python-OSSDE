@@ -8,6 +8,7 @@ In the project given by my lecture, I have done calculate using **Matlab** befor
 
 # To do
 1. Bus 1 as slack bus with V1 = 220 kV. Calculate bus voltage and power that unknown. Then calculate real power loss. Write the result on the table 2.
+2. Create Matrix-B then use it to calculate:  ![number2](./img/number2.jpg)
 
 # Solution
 
@@ -63,3 +64,5 @@ In the project given by my lecture, I have done calculate using **Matlab** befor
 >>7 | **219.42440185**  | **-0.01660083**    | 0          | 0           | 50         | 15           |
 >>---
 >>Ploss = **1.9488007 MW**
+
+2. Working on it..
