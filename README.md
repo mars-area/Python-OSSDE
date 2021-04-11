@@ -65,4 +65,6 @@ In the project given by my lecture, I have done calculate using **Matlab** befor
 >>---
 >>Ploss = **1.9488007 MW**
 
-2. Working on it..
+2. Calculate total load current.
+
+Working on it..
