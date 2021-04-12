@@ -5,6 +5,7 @@ import numpy as np
 #k is my attendance number
 k = 17
 
+#number 1
 #Impedansi Jaringan
 Z = np.zeros((7,7), dtype=complex)
 Z[0][1] = 3.4914+18.6208j
@@ -105,3 +106,5 @@ print('\nSloss :', Sloss)
 #Ploss
 Ploss = np.real(Sloss)
 print('\nPloss :', Ploss)
+
+#number 2
