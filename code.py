@@ -108,3 +108,6 @@ Ploss = np.real(Sloss)
 print('\nPloss :', Ploss)
 
 #number 2
+#
+Z = np.linalg.inv(Y)
+print(Z)
