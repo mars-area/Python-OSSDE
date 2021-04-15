@@ -76,13 +76,13 @@ V = np.array([[220], [220], [220], [220], [220], [220], [220]], dtype=complex)
 # Gauss Seidel
 # V = Vold[1:,:] #return baris 2 sampai 7, kolom 1
 for iterasi in range(0,100):
-    print('__________________________________________\niterasi ke', iterasi + 1)
+    # print('__________________________________________\niterasi ke', iterasi + 1)
     for i in range(1,7):
         arus1 = np.conjugate(np.divide(S[i], V[i]))
         V[i] = 0
         arus2 = np.matmul(Y[i], V)
         V[i] = np.divide(np.subtract(arus1, arus2), Y[i][i])
-    print('Vbus: \n', V)
+    # print('Vbus: \n', V)
 
 # Magnitude
 Magnitude = np.real(V)
@@ -110,4 +110,10 @@ print('\nPloss :', Ploss)
 #number 2
 #
 Z = np.linalg.inv(Y)
-print('\nMatrix Z :', Z)
+print('\nMatrix Zbus :', Z)
+
+Igen = I[:3]
+print('\n', Igen)
+
+Iload = I[3:]
+print('\n', Iload)
