@@ -110,4 +110,4 @@ print('\nPloss :', Ploss)
 #number 2
 #
 Z = np.linalg.inv(Y)
-print(Z)
+print('\nMatrix Z :', Z)
