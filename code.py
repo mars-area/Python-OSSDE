@@ -117,3 +117,6 @@ print('\n', Igen)
 
 Iload = I[3:]
 print('\n', Iload)
+
+ID = sum(Iload)
+print('\n', ID)
