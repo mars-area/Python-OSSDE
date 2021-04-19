@@ -120,3 +120,6 @@ print('\n', Iload)
 
 ID = sum(Iload)
 print('\n', ID)
+
+d = np.divide(Iload, ID)
+print('\n', d)
