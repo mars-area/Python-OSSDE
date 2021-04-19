@@ -111,15 +111,8 @@ print('\nPloss :', Ploss)
 #
 Z = np.linalg.inv(Y)
 print('\nMatrix Zbus :', Z)
-
 Igen = I[:3]
-print('\n', Igen)
-
 Iload = I[3:]
-print('\n', Iload)
-
 ID = sum(Iload)
-print('\n', ID)
-
 d = np.divide(Iload, ID)
 print('\n', d)
