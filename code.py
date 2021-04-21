@@ -115,6 +115,9 @@ Igen = I[:3]
 Iload = I[3:]
 ID = sum(Iload)
 d = np.divide(Iload, ID)
+
 #create A1 and A2 matrix from Zbus matrix
 matrixA1 = Z[3][0:4]
 print('\nMatrix A1 =', matrixA1)
+matrixA2 = Z[3][3:7]
+print('\nMatrix A2 =', matrixA2)
