@@ -108,7 +108,7 @@ Ploss = np.real(Sloss)
 print('\nPloss :', Ploss)
 
 #number 2
-#
+#create matrix Zbus
 Z = np.linalg.inv(Y)
 print('\nMatrix Zbus :', Z)
 Igen = I[:3]
@@ -121,3 +121,9 @@ matrixA1 = Z[3][0:4]
 print('\nMatrix A1 =', matrixA1)
 matrixA2 = Z[3][3:7]
 print('\nMatrix A2 =', matrixA2)
+
+#create t
+tranA1 = matrixA1.reshape(4,1)
+t1 = np.divide(1, np.matmul(matrixA2, d))
+t = t1 * tranA1
+print('\nt =', t)
