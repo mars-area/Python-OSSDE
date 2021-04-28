@@ -134,3 +134,12 @@ trant = t.reshape(1,4)
 print('\ntrant =', trant)
 A3 = -d * trant
 print('\nA3 =', A3)
+
+# create trasformation matrix C
+# create identity matrix C 
+Ci = np.identity(4)
+# delete last row matrix C
+C = np.delete(Ci, 3, 0)
+# append matrix A3 to matix C
+C = np.append(C, A3, axis = 0)
+print('\nC =', C)
