@@ -129,8 +129,8 @@ t = t1 * tranA1
 print('\nt =', t)
 
 # create matrix A3
+# transpose matrix t
 trant = t.reshape(1,4)
 print('\ntrant =', trant)
 A3 = -d * trant
-print('\nd =', d)
 print('\nA3 =', A3)
