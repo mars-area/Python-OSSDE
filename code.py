@@ -131,7 +131,6 @@ print('\nt =', t)
 # create matrix A3
 # transpose matrix t
 trant = t.reshape(1,4)
-print('\ntrant =', trant)
 A3 = -d * trant
 print('\nA3 =', A3)
 
@@ -143,3 +142,8 @@ C = np.delete(Ci, 3, 0)
 # append matrix A3 to matix C
 C = np.append(C, A3, axis = 0)
 print('\nC =', C)
+
+# create matrix T1
+# transpose C
+ctran = np.transpose(C)
+print('\nctran =', ctran)
