@@ -146,13 +146,10 @@ print('\nC =', C)
 # create matrix T1
 # transpose C
 ctran = np.transpose(C)
-print('\nctran =', ctran)
 # Rbus
 Rbus = np.real(Z)
-print('\nRbus =', Rbus)
 # C conjugate
 Ccon = np.conjugate(C)
-print('\nCcon =', Ccon)
 # T1
 T1 = np.matmul(np.matmul(ctran, Rbus), Ccon)
 print('\nT1 =', T1)
