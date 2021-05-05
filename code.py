@@ -153,3 +153,11 @@ Ccon = np.conjugate(C)
 # T1
 T1 = np.matmul(np.matmul(ctran, Rbus), Ccon)
 print('\nT1 =', T1)
+
+# create diagonal matrix Ta that have element aii
+Ta = np.zeros((4,4), dtype=complex)
+for i in range(0,3):
+    Ta[i][i] = I[i] / np.real(Sbus[i])
+In0 = -(V[3] / Z[3][3])
+Ta[3][3] = In0
+print('\nTa =', Ta)
