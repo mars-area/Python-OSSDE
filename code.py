@@ -161,3 +161,9 @@ for i in range(0,3):
 In0 = -(V[3] / Z[3][3])
 Ta[3][3] = In0
 print('\nTa =', Ta)
+
+# create matrix T2
+# conjugate matrix Ta
+Taconj = np.conjugate(Ta)
+T2 = np.matmul(np.matmul(Ta, T1), Taconj)
+print('\nT2 =', T2)
