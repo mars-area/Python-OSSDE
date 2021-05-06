@@ -172,3 +172,8 @@ print('\nT2 =', T2)
 T2real = np.real(T2)
 B = T2real[:3,:3]
 print('\nB =', B)
+
+# matrix Bo
+Boi = T2real[3,:3] * 2
+Bo = Boi.reshape(3,1)
+print('\nBo =', Bo)
