@@ -167,3 +167,8 @@ print('\nTa =', Ta)
 Taconj = np.conjugate(Ta)
 T2 = np.matmul(np.matmul(Ta, T1), Taconj)
 print('\nT2 =', T2)
+
+# matrix B
+T2real = np.real(T2)
+B = T2real[:3,:3]
+print('\nB =', B)
