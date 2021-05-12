@@ -181,3 +181,8 @@ print('\nBo =', Bo)
 # matrix Boo
 Boo = T2real[3,3]
 print('\nBoo =', Boo)
+
+# calculate transmision losses
+Pg = np.real(Sbus[:3])
+Pl = (np.matmul(np.matmul(np.transpose(Pg), B), Pg)) + (np.matmul(np.transpose(Pg), Bo)) + Boo
+print('\nPl =', Pl)
